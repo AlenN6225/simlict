@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlsn="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>TC NO †reticisi</title>
+		
+		<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab">
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-9">
+		<meta http-equiv="content-type" content="text/html;charset=windows-1254">
+		<meta http-equiv="content-type" content="text/html;charset=x-mac-turkish">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="title" content="Kimlik Numarasİ †retme, Sorgulama ve DoÛrulama">
+		<meta name="description" content="TŸrkiye Cumhuriyeti (TC) Kimlik Numarasİ Ÿretme, sorgulama ve doÛrulama yapmak, EÛitim ve test amalİ algoritma ve kod paylaßmak iin olußturulmuß bir sayfadİr">
+		<meta name="keywords" content="Simlict, simlict.com, Kimlik Numarasİ, Kimlik No, TC Kimlik Numarasİ, TC Kimlik Ÿret, TC Kimlik No, tc Ÿret, TC no, tc no Ÿret, tc no Ÿretici,  tc kimlik no olußturucu, TCNO, Kimlik numarasİ Ÿret, Kimlik numarasİ doÛrula, Tc kimlik numarasİ doÛrula, tc no doÛrula, tc doÛrula, tc kimlik doÛrula, kimlik numarasİ doÛrulama, algoritma, kimlik numarasİ algoritmasİ, Kimlik numarasİ sorgulama, kimlik no sorgulama, Tc Kimlik Numarasİ sorgulama, tc sorgula, tc no sorgula, tc kimlik sorgula">
+		<meta name="ROBOTS" content="ALL">
+		<meta name="Rating" content="GENERAL">
+		
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="TC NO †reticisi">
+		<meta property="og:url" content="http://www.simlict.com/tcno.html">
+		<meta property="og:description" content="TŸrkiye Cumhuriyeti (TC) Kimlik Numarasİ Ÿretilmesi, DoÛrulanmasİ, algoritmasİ ve šrnek kod paylaßİmİ yapİlmak iin olußturulmuß, eÛitim ve test amalİ bir sayfadİr.">
+		<meta property="og:image" content="//www.simlict.com/simlict-logo.jpg">
+	
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="manifest.json">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		
+		<link type="text/css" rel="stylesheet" href="css\bootstrap.min.css" media="all">	
+		<link type="text/css" rel="stylesheet" href="css\overrides-spacelab.min.css" media="all">
+		<link type="text/css" rel="stylesheet" href="css\overwrite.css?v1.06" media="all">		
+	
+		<script src="js\jquery_1_10_2.min.js"></script>
+		<script src="js\bootstrap.min.js"></script>
+		<script src="js\lib.js?v=2.02"></script>
+		<script src="js\clipboard.min.js"></script>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-92055864-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-7670413645167522",
+			enable_page_level_ads: true
+		  });
+		</script>
+		
+		<script type="text/javascript">
+			var copyText = "";
+			var clipboard;
+			$(document).ready(function() {
+				
+				if (SimlictJs.Utils.isEventSupported("input") == true) {
+					$('#tcNoValidationInput').bind('input', function() {
+						SimlictJs.Generator.processValidation(SimlictJs.Validator.validateTcNo);
+					});
+				} else {
+					$( "#tcNoValidationInput" ).on('keyup', function(e) {
+						SimlictJs.Generator.processValidation(SimlictJs.Validator.validateTcNo);
+					});
+					$( "#tcNoValidationInput" ).on('paste', function(e) {
+						SimlictJs.Generator.processValidation(SimlictJs.Validator.validateTcNo);
+					});
+				}
+				
+				SimlictJs.Generator.generateTcNo('tcDiv');
+				clipboard = SimlictJs.Utils.clipboard();
+				SimlictJs.Utils.scrollTop();
+			});
+			
+			function paste(div) {
+				$("#" + div).val(copyText);
+			}
+		</script>
+	</head>
+	
+	<body class="html front not-logged-in two-sidebars page-node">
+		
+		<header id="navbar" role="banner" class="navbar container navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="logo navbar-btn pull-left" href="index.htm" title="Home">
+						<img src="img\simclit_logo.png" alt="Home">
+					</a>
+					<!-- <a class="name navbar-brand" href="https://www.simlict.com" title="Home">www.simlict.com</a> -->
+      
+      
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+			  
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="navbarInitial navbar-collapse collapse out" id="navbar-collapse" aria-expanded="false">
+					<nav role="navigation">
+						<section id="block-system-navigation-top" class="block block-system block-menu clearfix">
+							<h2 class="block-title">Veri †reticiler</h2>
+							<ul class="menu nav">
+								<li class="first leaf"><a href="tcno.html">Tc Kimlik Numarasİ †retici</a></li>
+								<li class="leaf"><a href="VergiNo.html" title="">Vergi Numarasİ †retici</a></li>
+								<!--<li class="leaf"><a href="addressGenerate.html" title="">Adres †retici</a></li>-->
+							</ul>
+						</section>
+
+						<section id="block-menu-menu-navigationcharacters-top" class="block block-menu clearfix">
+							<h2 class="block-title">Yardİmcİlar</h2>
+							<ul class="menu nav">
+								<li class="first leaf"><a href="ascii.html" title="">ASCII Codes</a></li>
+								<li class="leaf"><a href="htmlCodes.html" title="">HTML Codes</a></li>
+								<li class="leaf"><a href="turkishCharacters.html" title="">TŸrke Karakterler UTF-8/HTML</a></li>
+								<li class="last leaf"><a href="binlist.html" title="">Binlist</a></li>
+							</ul>
+						</section>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<div class="main-container container">
+
+			<header role="banner" id="page-header">
+		
+			</header>
+
+			<div class="row">
+			
+				<aside class="leftNavLarge col-lg-3 col-md-3 col-sm-4 hidden-xs" aria-expanded="false">
+					<div class="region region-sidebar-first well">
+						<section id="block-system-navigation-left" class="block block-system block-menu clearfix">
+							<h2 class="block-title">Veri †reticiler</h2>
+							<ul class="menu nav">
+								<li class="first leaf"><a href="tcno.html">Tc Kimlik Numarasİ †retici</a></li>
+								<li class="leaf"><a href="VergiNo.html" title="">Vergi Numarasİ †retici</a></li>
+								<!--<li class="leaf"><a href="/addressGenerate" title="">Adres †retici</a></li>-->
+							</ul>
+						</section>
+
+						<section id="block-menu-menu-navigationcharacters-left" class="block block-menu clearfix">
+							<h2 class="block-title">Yardİmcİlar</h2>
+							<ul class="menu nav">
+								<li class="first leaf"><a href="ascii.html" title="">ASCII Codes</a></li>
+								<li class="leaf"><a href="htmlCodes.html" title="">HTML Codes</a></li>
+								<li class="leaf"><a href="turkishCharacters.html" title="">TŸrke Karakterler UTF-8/HTML</a></li>
+								<li class="last leaf"><a href="binlist.html" title="">Binlist</a></li>
+							</ul>
+						</section>
+					</div>
+				</aside>  <!-- /#sidebar-first -->
+		
+				<section class="col-lg-7 col-md-7 col-sm-8 col-xs-12">
+					<div class="region region-content">
+						<section id="block-system-main" class="block block-system clearfix">
+			  
+							<article id="node-2" class="node node-article node-promoted node-teaser clearfix" about="/tcno.html" typeof="sioc:Item foaf:Document">
+								<header>
+									<h1 class="h3 text-primary text-center"><strong>TC Kimlik Numarasİ †retici</strong></h1>
+									<span property="dc:title" content="TC Kimlik Numarasİ †retici" class="rdf-meta element-hidden"></span>
+									<span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+								</header>
+								<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+									<div class="field-items">
+										<div class="well well-sm text-center">
+											<br><br>
+											<button type="button" onclick="SimlictJs.Generator.generateTcNo('tcDiv');" id="tcButton" class="btn btn-primary btn-lg btn-generate">TC No †ret</button>
+											<span id="tcDiv" class="headLightText"></span>
+											<button type="button" data-clipboard-target="#tcDiv" id="copyTcButton" class="btn btn-info btn-copy">Kopyala</button>
+											<br><br>
+										</div>
+										<div id="tcNoValidationDiv" class="well well-sm">
+											<label for="tcNoValidationInput" class="h4 text-primary">TC Kimlik Numarasİ DoÛrulama : </label>
+											<input class="h4 text-center headLightInput180" id="tcNoValidationInput" type="text">&nbsp;&nbsp;
+											<span class="validationImages">
+												<img id="successGif" src="img\success.gif" class="displayDisable">
+												<img id="failGif" src="img\fail.gif" class="displayDisable">
+											</span>
+											<!--<button type="button" onclick="paste('tcNoValidationInput');processValidation(validateTcNo);" id="copyTcButton" class="btn btn-info">Yapİßtİr</button>-->
+										</div>
+									</div>
+									<div class="site-content">
+										<p>
+											TC Kimlik Numarasİ, TŸrk Vatandaßlarİna verilen ve kißiye šzgŸ olan 11 haneli bir numaradİr. Her ne kadar bu konu Ÿzerine resmi bir aİklama gšremesem de bu numara sİradan veya rastgele deÛil, belirli bir kurala gšre verilmektedir. Numaranİn matematiksel bir algoritmayla olußturulmasİnİn yanİnda, sadece ift sayİlar olmasİ ve diÛer aile bireylerine verilen kimlik numaralarİnİn da belirli bir sistematiÛi bulunmasİ gibi ilgin bir ka durumuda bulunmaktadİr. Kİsaca Tc Kimlik Numarasİnİn olußturulmasİ algoritmasİnİ aİklayİp, bir ka kod parasİ ile šrneklendirelim.
+										</p>
+										<p>
+											Tc Kimlik Numarasİ aslİnda 9 haneden olußmaktadİr, son 2 hanesi de kontrol/doÛrulama amalİ eklenmißtir. Kimlik numarasİ 0 ile baßlayamaz. Ülk 9 rakam kullanİlarak 10. hane, ilk 10 rakam kullanİlarak da 11. hane elde edilmektedir.
+										</p>
+										<p>
+											1., 3., 5., 7. ve 9. hanelerdeki rakamlar toplanİr, 7 ile arpİlİr ve 2., 4., 6. ve 8. hanelerdeki rakamlarİn toplamİ İkarİlİr. Elde edilen sonucun birler basamaÛİ (mod 10) kimlik numarasİnİn 10. hanesini vermektedir.
+										</p>
+										<p>
+											Kimlik numarasİnİn ilk 9 hanesi ile yukarİdaki yšntemle elde ettiÛimiz 10. haneyi topladİÛİmİzda birler basamaÛİ (mod 10) 11. haneyi vermektedir.
+										</p>
+										<p>
+											Biraz daha matematiksel olarak ifade etmek gerekirse ;
+										</p>
+										<p class="well">
+											<em>
+												KimliÛin ilk 9 rakamİ iin <strong>d</strong>, kontrol basamaklarİ iin <strong>c</strong> kullanİrsak : <br><br>
+												Tc No = d1 d2 d3 d4 d5 d6 d7 d8 d9 c1 c2 <br>
+												<br>
+												c1 = ( (d1 + d3 + d5 + d7 + d9) * 7 - (d2 + d4 + d6 + d8) ) mod10 <br><br>
+												c2 = ( d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9 + c1 ) mod10 <br>
+											</em>
+										</p>
+										<p class="well">
+											<em>
+												…rneÛin TC Kimlik Numarasİ : <strong>023456789xx</strong> olsun. <br>
+												<small class="text-muted">(TC Kimlik Numarasİ 0 ile baßlayamaz ama gerek bir vatandaßa denk gelmemek iin bu sayİ seilmißtir.)</small> <br><br>
+												10.rakam = ( (0 + 3 + 5 + 7 + 9) * 7 - (2 + 4 + 6 + 8) ) mod10 = 148 mod10 = 8 <br><br>
+												11.rakam = (0 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 8) mod10 = 52 mod10 = 2 <br><br>
+												TC Kimlik Numarasİ = 02345678982
+											</em>
+										</p>
+										<p>
+											Sšz konusu akrabalarİn Tc Kimlik numarasİnİ hesaplamak olduÛu zaman ißler biraz daha karİßİklaßabiliyor. Aynİ soyada sahip (aynİ kŸtŸÛe kayİtlİ) akrabalarİ bulmak iin, kimlik numarasİnİn anlamlİ ilk 9 rakamİndan 29999 İkardİÛİmİz zaman yaßca kŸŸk akrabamİzİ, eklediÛimiz zaman da yaßca bŸyŸk akrabamİzİ buluruz. Daha pratik bir yšntem olarak, 5.haneden 3 İkarİp 9.haneye 1 eklediÛimizde yaßa kŸŸk akrabamİzİ, 5.haneye 3ekleyip 9. haneden 1 İkardİÛİmİzda yaßa bŸyŸk akrabamİzİ elde ederiz.
+										</p>
+										<p class="well">
+											<em>
+												…rneÛin TC Kimlik Numarasİ : <strong>02345678982</strong> olsun. Ülk 9 basamaÛİ ele aldİÛİmİzdan : <br><br>
+												02345 6789 : 5.haneye 3 ekleyip 9. haneden 1 İkarİnca bŸyŸk birey : <br>
+												02348 6788 Yukarİdaki formŸller ile son 2 rakam hesaplanİrsa TC No : 02348678828<br><br>
+												02345 6789 : 5.haneden 3 İkarİp 9. haneye 1 eklediÛimizde kŸŸk birey : <br>
+												02342 6790 Yukarİdaki formŸller ile son 2 rakam hesaplanİrsa TC No : 02342679036
+											</em>
+										</p>
+										
+										<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+									</div>
+								</div>
+								
+							</article>
+						</section>
+					</div>
+				</section>
+
+				<aside class="col-lg-2 col-md-2 hidden-sm hidden-xs" role="complementary">
+					<div class="region region-sidebar-second">
+						<section id="block-block-2" class="block block-block clearfix">      
+							<p>&nbsp;</p>
+						</section>
+					</div>
+				</aside>  <!-- /#sidebar-second -->
+		
+			</div>
+			<div class="row footerRow">
+				<br>
+				<footer>
+					<div class="alert alert-info">
+						<p class="footer-alert">
+						Bu Web Sayfasİ sadece bilgilendirme, eÛitim ve test amacİ ile kurulmuß olup baßka herhangi bir ama taßİmamaktadİr. Sayfalardaki bilgileri kullanarak yapİlacak her ißlem sadece kullanan kißinin sorumluluÛundadİr. †retilen veya doÛrulama iin girilen hibir Tc kimlik numarasİ kayİt altİna alİnmamaktadİr. 
+						</p>
+					</div>
+					<!--<ul class="links list-inline">
+						<li class="node-readmore first last">
+							<a href="/tcNo" rel="tag" title="TC Kimlik Numarasİ †retici">Footer</a>
+						</li>
+					</ul>-->
+				</footer>
+			</div>
+		</div>
+		
+	</body>
+
+</html>

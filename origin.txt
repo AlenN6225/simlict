@@ -1,0 +1,116 @@
+Uri: https://www.simlict.com/
+File Name: C:\Users\akifu\Desktop\www.simlict.com\index.htm
+Content Type: text/html
+
+Uri: https://www.simlict.com/apple-touch-icon.png
+File Name: C:\Users\akifu\Desktop\www.simlict.com\apple-touch-icon.png
+Content Type: image/png
+
+Uri: https://www.simlict.com/favicon-32x32.png
+File Name: C:\Users\akifu\Desktop\www.simlict.com\favicon-32x32.png
+Content Type: image/png
+
+Uri: https://www.simlict.com/favicon-16x16.png
+File Name: C:\Users\akifu\Desktop\www.simlict.com\favicon-16x16.png
+Content Type: image/png
+
+Uri: https://www.simlict.com/manifest.json
+File Name: C:\Users\akifu\Desktop\www.simlict.com\manifest.json
+Content Type: application/json
+
+Uri: https://www.simlict.com/safari-pinned-tab.svg
+File Name: C:\Users\akifu\Desktop\www.simlict.com\safari-pinned-tab.svg
+Content Type: image/svg+xml
+
+Uri: https://www.simlict.com/css/bootstrap.min.css
+File Name: C:\Users\akifu\Desktop\www.simlict.com\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://www.simlict.com/css/overrides-spacelab.min.css
+File Name: C:\Users\akifu\Desktop\www.simlict.com\css\overrides-spacelab.min.css
+Content Type: text/css
+
+Uri: https://www.simlict.com/css/overwrite.css?v1.06
+File Name: C:\Users\akifu\Desktop\www.simlict.com\css\overwrite.css
+Content Type: text/css
+
+Uri: https://www.simlict.com/tcno.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\tcno.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/VergiNo.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\VergiNo.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/ascii.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\ascii.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/htmlCodes.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\htmlCodes.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/turkishCharacters.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\turkishCharacters.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/binlist.html
+File Name: C:\Users\akifu\Desktop\www.simlict.com\binlist.html
+Content Type: text/html
+
+Uri: https://www.simlict.com/js/jquery_1_10_2.min.js
+File Name: C:\Users\akifu\Desktop\www.simlict.com\js\jquery_1_10_2.min.js
+Content Type: application/javascript
+
+Uri: https://www.simlict.com/js/bootstrap.min.js
+File Name: C:\Users\akifu\Desktop\www.simlict.com\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.simlict.com/js/lib.js?v=2.02
+File Name: C:\Users\akifu\Desktop\www.simlict.com\js\lib.js
+Content Type: application/javascript
+
+Uri: https://www.simlict.com/js/clipboard.min.js
+File Name: C:\Users\akifu\Desktop\www.simlict.com\js\clipboard.min.js
+Content Type: application/javascript
+
+Uri: https://www.simlict.com/img/simclit_logo.png
+File Name: C:\Users\akifu\Desktop\www.simlict.com\img\simclit_logo.png
+Content Type: image/png
+
+Uri: https://www.simlict.com/img/success.gif
+File Name: C:\Users\akifu\Desktop\www.simlict.com\img\success.gif
+Content Type: image/gif
+
+Uri: https://www.simlict.com/img/fail.gif
+File Name: C:\Users\akifu\Desktop\www.simlict.com\img\fail.gif
+Content Type: image/gif
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular.woff
+Content Type: application/font-woff
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular.ttf
+Content Type: application/font-sfnt
+
+Uri: https://www.simlict.com/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Users\akifu\Desktop\www.simlict.com\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://www.simlict.com/js/clipboard.js
+File Name: C:\Users\akifu\Desktop\www.simlict.com\js\clipboard.js
+Content Type: application/javascript
+
